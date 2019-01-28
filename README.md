@@ -8,6 +8,8 @@ This app is part of the discussion in the *Component-based Rails Applications* b
 
 As the current version of the `cbra_multi_mount` app shows, it is now possible to mount an engine twice and have it work properly with routes and path helpers.
 
+The app is available at http://cbra-multi-mount.herokuapp.com/
+
 This is Rails' behavior for Rails 5.1 and up.
 
 
@@ -15,7 +17,7 @@ This is Rails' behavior for Rails 5.1 and up.
 
 *To see this old behavior, check out version https://github.com/shageman/cbra_multi_mount/tree/8bb794e61e0e8e9ebf437b0a2be8e750c41ea7d8 of this app*
 
-The app is available at http://cbra-multi-mount.herokuapp.com/
+~~The app is available at http://cbra-multi-mount.herokuapp.com/~~
 
 The homepage shows the first routing problem: path helpers are broken. Mounting an engine twice sets up all routes, i.e., both of these links work http://cbra-multi-mount.herokuapp.com/admin1/things and http://cbra-multi-mount.herokuapp.com/admin2/things. The links on the homepage illustrate that for the path helpers, the last resgistered path wins: http://cbra-multi-mount.herokuapp.com/
 
