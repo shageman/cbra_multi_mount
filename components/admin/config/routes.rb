@@ -1,4 +1,3 @@
 Admin::Engine.routes.draw do
-  resources :things
-
+  get 'things/index'
 end
