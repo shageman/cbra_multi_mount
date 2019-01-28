@@ -2,6 +2,8 @@
 
 This sample app discusses the possibility of mounting and engine twice within a Rails app.
 
+This app is part of the discussion in the *Component-based Rails Applications* book. Get more info at [cbra.info](http://www.cbra.info).
+
 ## Rails 5.1 and newer
 
 As the current version of the `cbra_multi_mount` app shows, it is now possible to mount an engine twice and have it work properly with routes and path helpers.
