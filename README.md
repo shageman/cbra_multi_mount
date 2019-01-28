@@ -1,13 +1,15 @@
-== README
+# CBRA Multi Mount Discussion
 
-# Update - Rails 5.1 and newer
+This sample app discusses the possibility of mounting and engine twice within a Rails app.
+
+## Rails 5.1 and newer
 
 As the current version of the `cbra_multi_mount` app shows, it is now possible to mount an engine twice and have it work properly with routes and path helpers.
 
 This is Rails' behavior for Rails 5.1 and up.
 
 
-# Prior to Rails 5.1
+## Older than Rails 5.1
 
 *To see this old behavior, check out version https://github.com/shageman/cbra_multi_mount/tree/8bb794e61e0e8e9ebf437b0a2be8e750c41ea7d8 of this app*
 
